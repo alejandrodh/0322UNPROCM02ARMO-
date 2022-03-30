@@ -1,0 +1,25 @@
+/* body{
+    background-color: red; 
+}*/
+
+/* Desktop First */
+
+.container {
+    background-color: #ccc;
+    height: 300px;
+}
+article {
+    border: 1px solid #444;
+    background-color: rgba(255,0,0, 0.5);
+}
+
+/* Mobile */
+@media(max-width:800px){
+    .container{
+        background-color: aqua;
+    }
+    h1{
+        color: red;
+    }
+
+}

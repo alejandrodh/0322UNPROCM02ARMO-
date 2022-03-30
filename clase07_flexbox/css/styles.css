@@ -1,0 +1,24 @@
+.container{
+    background-color: #ccc;
+    height: 800px;
+    padding: 15px;
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+.content{
+    width: 100px;
+}
+.first{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.second{
+    background-color: rgba(0, 255, 0, 0.5);
+}
+.third{
+    background-color: rgba(0, 0, 255, 0.5);
+}
