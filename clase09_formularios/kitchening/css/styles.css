@@ -1,0 +1,53 @@
+/* resetos */
+ol, ul{
+    padding: 0;
+}
+li {
+    list-style-type:none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Estilos página Desktop first */
+body{
+    background-image: url('../images/bg-body.png');
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.access{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+.access li{
+    margin-right: 20px;
+}
+
+.logo{
+    border-radius: 90%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-nav li {
+    width: 16%;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
