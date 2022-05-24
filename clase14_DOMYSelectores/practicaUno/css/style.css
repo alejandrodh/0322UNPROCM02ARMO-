@@ -1,0 +1,74 @@
+/*** ESTILO GENERAL ***/
+  @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+  *{box-sizing: border-box;}
+  body{font-family: "Permanent Marker";margin: 0;}
+  nav ul{
+    list-style-type: none;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+  }
+  nav li{
+    float: right;
+  }
+  ul .logo{
+    float: left;
+  }
+  .logo img{
+    width: 100%;
+  }
+  li.menu{
+    margin: 30px 30px 0 0;
+    padding: 10px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  main.bienvenida{
+    width: 100%;
+  }
+  main h1{
+    width: 100%;
+    text-align: center;
+  }
+  main img{
+    margin: 0 auto;
+    display: block;
+  }
+  main div.background-img{
+    height: 400px;
+    width: 50%;
+    margin: 0 auto;
+    background-image: url(../img/background.jpeg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  footer p{
+    margin: 60px 0 0 60px;
+    padding: 10px;
+  }
+
+  .contenido-bloqueado {
+    background-color: black;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    height: 100vh;
+    padding-top: 15%;
+    display: none;
+  }
+
+/*** ESTILO GENERAL ***/
+
+/*** ESTILO REUTILIZABLE ***/
+  .uppercase{
+    text-transform: uppercase;
+  }
+/*** ESTILO REUTILIZABLE ***/
+
+/*** VIEWPORTS ***/
+  @media only screen and (max-width: 600px) {
+      li.menu{ display: none;}
+      main div.background-img{width: 100%;}
+  }
+/*** VIEWPORTS ***/
